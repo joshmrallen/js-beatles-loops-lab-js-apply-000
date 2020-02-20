@@ -42,6 +42,7 @@ function iLoveTheBeatles(i) {
     do {
 
         love[(i - start)] = "I love the Beatles!";
+        //subtracting the initial passed parameter to ensure 
 
         i++;
     }
