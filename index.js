@@ -42,7 +42,7 @@ function iLoveTheBeatles(i) {
     do {
 
         love[(i - start)] = "I love the Beatles!";
-        //subtracting the initial passed parameter to ensure 
+        /* subtracting the initial passed parameter to ensure there are no empty positions inside of the array, love */
 
         i++;
     }
