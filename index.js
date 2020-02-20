@@ -37,10 +37,11 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(i) {
 
     var love = [];
+    var start = i;
 
     do {
 
-        love[i] = "I love the Beatles!";
+        love[(i - start)] = "I love the Beatles!";
 
         i++;
     }
